@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Youtube Subscribers Details !!!</title>
+  <style>
+    
+    body {
+      background-color: #00f;
+      font-family: 'Arial', sans-serif;
+      margin: 10;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .maindiv {
+      background-color: rgb(0, 34, 255);
+      min-height: 100vh;
+    }
+    .container {
+      margin-top: 10vh;
+      text-align: center;
+    }
+    .almabetter {
+      background-color: #40ff43;
+      padding: 10px;
+    }
+    .updiv {
+      background-color: #eaff00;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .lowdiv {
+      margin-top: 0vh;
+      background-color: #bb00ff;
+      padding: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      margin: 10px 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+    }
+    h2 {
+      margin-top: 5px;
+      font-size: 1.8em;
+      color: #007bff;
+    }
+    h1 {
+      font-size: 3em;
+      color: #222;
+    }
+    h2 {
+      font-size: 2.5em;
+      color: #00f;
+    }
+    h3 {
+      font-size: 2.5em;
+      color: rgb(0, 0, 0);
+    }
+    a {
+      color: rgb(255, 234, 0);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="maindiv">
+    <div class="container">
+      <div class="almabetter">
+        <h1>Backend Project</h1>
+      </div>
+      <div class="updiv">
+        <h1>Get Youtube Subscribers Details</h1>
+        <h2>Try out with entering each route using the routes given below in URL or in postman</h2>
+      </div>
+      <div class="lowdiv">
+        <ul>
+          <li>
+            <h3>Click on Get to view Data</h3>
+            <b><a href="/subscribers" target="_blank">GET /subscribers</a></b> : Lists an array of all subscribers details in the database.
+          </li>
+          <li>
+            <b><a href="/subscribers/names" target="_blank">GET /subscribers/names</a></b> : Lists an array of all subscribers with the two fields (name and subscribed channel).
+          </li>
+          <li>
+            <b><a href="/subscribers/:id" target="_blank">GET /subscribers/:id</a></b> : Lists details of subscriber with given ID.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
